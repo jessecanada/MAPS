@@ -12,3 +12,4 @@
 #### 2.1. Post-processing: The morphologies of the cropped cells are visualized by first extracting image features by parallel stacking of convolutional layers, then applying PCA, t-SNE and spectral clustering to find underlying patterns.
 #### 3. Phenotype scoring: A classification model built on Azure is used to classify the cells into different bins, based on the general classes of localizations discovered in step 2.2.
 ### Note: Because different experiments involve different types of cells and proteins being analyzed, users should build their own object detection and classification models on Azure.
+#### /t Visit this quick start guide on how to build your first object detection model: https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector
