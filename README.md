@@ -13,5 +13,5 @@
 #### 2.2. Post-processing: The visualization functions implemented here will help you inspect your data space, allowing you to get a general sense of the morphologies of the cropped cells and identify sub-types. First, image features are extracted by parallel stacking of 3 convolutional layers, then PCA, t-SNE and spectral clustering are applied.
 #### 3. Phenotype scoring: A classification model built on Azure is used to classify the cells into different bins, based on the general classes of localizations discovered in step 2.2.
 ### Note: Because different experiments involve different types of cells and proteins being analyzed, users should build their own object detection and classification models on Azure.
-####  Visit this [quick start guide](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector) on how to build your first object detection model.
+####  Visit this [quick start guide](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector) on how to build your first object detection model (no coding required! yay!).
 ####  Read this [how-to](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/python-tutorial) to learn about using your Azure Custom Vision model with the Python SDK.
