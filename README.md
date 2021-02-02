@@ -4,7 +4,7 @@
 ### MAPS is built built around using Microsoft's  Azure [CustomVision.ai](https://www.customvision.ai) which has an intuitive graphical interface for model traning.
 ### Detailed implementation guide is published to [protocols.io](https://www.protocols.io/view/maps-image-analysis-bn7dmhi6).
 <div align="center">
-<img width=200 src="https://github.com/jessecanada/MAPS/blob/master/Data/MAPS_overview.png?raw=true">
+<img src="https://github.com/jessecanada/MAPS/blob/master/Data/MAPS_overview.png?raw=true">
   </div>
 #### Steps:
 #### __Beofre we start:__ Input images should be converted to TIFF files of microscopy images containing Red, Green and Blue (DAPI stained nuclei) channels.
