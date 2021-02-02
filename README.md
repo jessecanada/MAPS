@@ -5,7 +5,7 @@
 ### Detailed implementation guide is published to protocols.io: dx.doi.org/10.17504/protocols.io.bn7dmhi6
 ###
 #### Steps:
-#### **Beofre we start:** Input images should be converted to TIFF files of microscopy images containing Red, Green and Blue (DAPI stained nuclei) channels.
+#### __Beofre we start:__ Input images should be converted to TIFF files of microscopy images containing Red, Green and Blue (DAPI stained nuclei) channels.
 #### **1. Pre-processing:** This is a quality control step to remove blurry (out-of-focus images). Also some basic histogram corrrection is applied.
 #### **2.1 Cell detection:** An object detection model built on Azure Custom Vision is used to detect individual cells from images. Bounding boxes for detected cells are visualized. Each cell is cropped from the images.
 #### **2.2. Training augmentation:** Augment your training data with 14 different image transformations. The original bounding box coordinates are preserved. Images are re-uploaded to Azure for re-training. Prereq: bbox_util.py
