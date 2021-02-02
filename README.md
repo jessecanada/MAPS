@@ -3,8 +3,7 @@
 ### MAPS is designed to automate the processing and interpretations of large amounts of microscopy images, but is adaptable to other types of images.
 ### MAPS is built built around using Microsoft's  Azure [CustomVision.ai](https://www.customvision.ai) which has an intuitive graphical interface for model traning.
 ### Detailed implementation guide is published to [protocols.io](https://www.protocols.io/view/maps-image-analysis-bn7dmhi6).
-<div align="center">
-<img src="https://github.com/jessecanada/MAPS/blob/master/Data/MAPS_overview.png?raw=true"></div>
+<img align="center" src="https://github.com/jessecanada/MAPS/blob/master/Data/MAPS_overview.png?raw=true">
 #### Steps:
 #### __Beofre we start:__ Input images should be converted to TIFF files of microscopy images containing Red, Green and Blue (DAPI stained nuclei) channels.
 #### **1. Pre-processing:** This is a quality control step to remove blurry (out-of-focus images). Also some basic histogram corrrection is applied.
