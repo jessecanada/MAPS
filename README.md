@@ -2,8 +2,7 @@
 ### Most cell biology experiments involve scoring the subcellular localizations of proteins or inspecting the morphologies of organelles from microscopy images. This process is very labour-intensive as it is traditionally done manually.
 ### MAPS is designed to automate the processing and interpretations of large amounts of microscopy images, but is adaptable to other types of images.
 ### MAPS is built using a combination of computer vision and machine learning (deep learning) techniques.
-### It is written in python 3. After importing images, all preprocessing steps are written with openCV. Post-processing is written with Sci-kit Learn. Deep learning models are deployed on Azure Custom Vision. Pandas handles all data.
-### This project is a work in progress, and will be updated regularly.
+### Detailed implementation guide is published to protocols.io: dx.doi.org/10.17504/protocols.io.bn7dmhi6
 ###
 #### Steps:
 #### 1. Input images: TIFF files of microscopy images containing Red, Green and Blue (DAPI stained nuclei) channels.
